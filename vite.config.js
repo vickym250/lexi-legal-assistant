@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss(),],
+  base: "/lexi-legal-assistant/", // 👈 यह जोड़ना जरूरी है
+  plugins: [react(), tailwindcss()],
 })
